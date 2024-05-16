@@ -9,7 +9,7 @@ def main():
     print(f'Hello, {name}!')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        start_num = random.randint(1, 10)
+        start_num = random.randint(1, 3)
         step_num = random.randint(1, 3)
         random_numbers = [_ for _ in range(start_num, 20, step_num)]
         random_marker = random.randint(0, len(random_numbers))
