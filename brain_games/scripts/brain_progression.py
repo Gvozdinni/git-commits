@@ -10,10 +10,11 @@ def main():
     correct_answers_count = 0
     while correct_answers_count < 3:
         start_num = random.randint(1, 10)
-        step_num = random.randint(0, 3)
+        step_num = random.randint(1, 3)
         random_numbers = [_ for _ in range(start_num, 20, step_num)]
         random_numbers[2] = '..'
-        print(f'What number is missing in the progression? {random_numbers}')
+        numbers_string = ' '.join(map(str, random_numbers))
+        print(f'What number is missing in the progression? {numbers_string}')
         user_answer = prompt.string('Your answer: ')
         answer = 2 * step_num + start_num
         if int(user_answer) == answer:
