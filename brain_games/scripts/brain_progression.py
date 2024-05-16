@@ -14,7 +14,7 @@ def main():
         random_marker = random.randint(0, len(random_numbers) - 1)
         random_numbers[random_marker] = '..'
         numbers_string = ' '.join(map(str, random_numbers))
-        print(f'What number is missing in the progression?')
+        print('What number is missing in the progression?')
         print(f'Question: {numbers_string}')
         user_answer = prompt.string('Your answer: ')
         answer = (random_marker) * step_num + start_num
