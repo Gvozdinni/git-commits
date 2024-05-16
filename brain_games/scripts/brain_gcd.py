@@ -20,7 +20,6 @@ def main():
             print('Correct!')
             correct_answers_count += 1
         else:
-            correct_answers_count = 0
             print(f"{user_answer} is wrong answer ;(. Correct answer was {answer}.\nLet's try again, _!")
             break
     if correct_answers_count == 3:
