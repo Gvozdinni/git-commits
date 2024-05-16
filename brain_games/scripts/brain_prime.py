@@ -13,7 +13,10 @@ def main():
     while correct_answers_count < 3:
         random_num = random.randint(1, 107)
         print(f'Question: {random_num}')
-        array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 61, 71, 73, 79, 83, 89, 97, 101, 103, 107,]
+        array = [2, 3, 5, 7, 11, 13, 17, 19,
+                 23, 29, 31, 37, 41, 43, 47,
+                 53, 61, 71, 73, 79, 83, 89,
+                 97, 101, 103, 107,]
         answer = r(random_num, array)
         user_answer = prompt.string('Your answer: ')
         if user_answer == 'yes':
@@ -21,16 +24,16 @@ def main():
         elif user_answer == 'no':
             right_answer = 'yes'
 
-        if (answer == True and user_answer == 'yes') or (answer == False and user_answer == 'no'):
+        if (answer is True and user_answer == 'yes') or (answer is False and user_answer == 'no'):
             print('Correct!')
             correct_answers_count += 1
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {right_answer}."
-                  f"\nLet's try again, {name}!")
+            print(f"{user_answer} is wrong answer ;(. Correct answer was "
+                  f"{right_answer}.\nLet's try again, {name}!")
             break
     if correct_answers_count == 3:
         print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
-            main()
+    main()
