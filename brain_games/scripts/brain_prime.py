@@ -1,5 +1,5 @@
 
-from brain_games.R import *
+from brain_games.R import r
 import random
 import prompt
 
