@@ -18,7 +18,9 @@ brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.8"
+prompt = "^1.0"
+
 
 
 [build-system]
