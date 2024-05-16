@@ -24,8 +24,8 @@ def main():
         elif user_answer == 'no':
             right_answer = 'yes'
 
-        if ((answer is True and user_answer == 'yes') or
-                (answer is False and user_answer == 'no')):
+        if (answer is True and user_answer == 'yes') or\
+                (answer is False and user_answer == 'no'):
             print('Correct!')
             correct_answers_count += 1
         else:
