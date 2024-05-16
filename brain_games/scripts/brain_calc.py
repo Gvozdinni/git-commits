@@ -31,5 +31,6 @@ def main():
     if correct_answers_count == 3:
         print(f'Congratulations, {name}!')
 
+
 if __name__ == '__main__':
     main()
