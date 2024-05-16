@@ -6,7 +6,7 @@ import prompt
 def main():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello {name}!')
+    print(f'Hello, {name}!')
     correct_answers_count = 0
     while correct_answers_count < 3:
         start_num = random.randint(1, 10)
