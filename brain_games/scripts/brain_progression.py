@@ -10,7 +10,7 @@ def main():
     correct_answers_count = 0
     while correct_answers_count < 3:
         start_num = random.randint(1, 10)
-        step_num = random.randint(2, 5)
+        step_num = random.randint(0, 3)
         random_numbers = [_ for _ in range(start_num, 20, step_num)]
         random_numbers[2] = '..'
         print(f'What number is missing in the progression? {random_numbers}')
