@@ -1,5 +1,5 @@
 
-from brain_games.R import R
+from brain_games.R import *
 import random
 import prompt
 
@@ -14,7 +14,7 @@ def main():
         random_num = random.randint(1, 107)
         print(f'Question: {random_num}')
         array = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 61, 71, 73, 79, 83, 89, 97, 101, 103, 107,]
-        answer = R(random_num, array)
+        answer = r(random_num, array)
         user_answer = prompt.string('Your answer: ')
         if user_answer == 'yes':
             right_answer = 'no'
