@@ -20,9 +20,10 @@ def main():
             print('Correct!')
             correct_answers_count += 1
         else:
-            correct_answers_count = 0
             print(f"{user_answer} is wrong answer ;(. Correct answer was {answer}.\nLet's try again, {name}!")
-    print(f'Congratulations, {name}!')
+            break
+    if correct_answers_count == 3:
+        print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
