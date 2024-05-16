@@ -12,7 +12,7 @@ def main():
         start_num = random.randint(1, 10)
         step_num = random.randint(1, 3)
         random_numbers = [_ for _ in range(start_num, 20, step_num)]
-        random_numbers[2] = '..'
+        random_numbers[3] = '..'
         numbers_string = ' '.join(map(str, random_numbers))
         print(f'What number is missing in the progression? {numbers_string}')
         user_answer = prompt.string('Your answer: ')
