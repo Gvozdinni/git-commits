@@ -12,8 +12,8 @@ def main():
     while correct_answers_count < 3:
         start_num = random.randint(1, 3)
         step_num = random.randint(1, 3)
-        question, place_marker = make_question(progression)
         progression = generate_progression(start_num, step_num)
+        question, place_marker = make_question(progression)
         print('What number is missing in the progression?')
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
