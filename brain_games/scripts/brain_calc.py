@@ -17,7 +17,7 @@ def main():
         user_answer = prompt.string('Your answer: ')
         match random_sign:
             case '+':
-                answer = operator.add(random_num1, random_num2)
+                answer = random_num1 + random_num2
             case '-':
                 answer = random_num1 - random_num2
             case '*':
