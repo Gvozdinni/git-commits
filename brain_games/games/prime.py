@@ -22,4 +22,3 @@ def checkout_answer(random_num):
         return 'yes'
     elif generate_prime_number(random_num) is False:
         return 'no'
-
