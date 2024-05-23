@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77482026-df43-486b-91a4-d5de0c879bf6" name="Changes" comment="dont get whats problem">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/generate_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/generate_progression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hexlet_code-0.1.0-py3-none-any.whl" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hexlet_code-0.1.0-py3-none-any.whl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hexlet_code-0.1.0.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hexlet_code-0.1.0.tar.gz" afterDir="false" />
-    </list>
+    <list default="true" id="77482026-df43-486b-91a4-d5de0c879bf6" name="Changes" comment="dont get whats problem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
