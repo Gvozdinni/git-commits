@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77482026-df43-486b-91a4-d5de0c879bf6" name="Changes" comment="dont get whats problem">
-      <change afterPath="$PROJECT_DIR$/brain_games/engine_games.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/even_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even.py" afterDir="false" />
-    </list>
+    <list default="true" id="77482026-df43-486b-91a4-d5de0c879bf6" name="Changes" comment="dont get whats problem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
