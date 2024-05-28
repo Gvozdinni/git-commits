@@ -3,13 +3,15 @@ import random
 EXERCISE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
+def is_even(random_number):
+    return random_number % 2 == 0
+
+
 def even_check(random_num):
-    if random_num % 2 == 0:
-        answer = 'yes'
-        return answer
+    if is_even(random_num):
+        return 'yes'
     else:
-        answer = 'no'
-        return answer
+        return 'no'
 
 
 def generate_question():

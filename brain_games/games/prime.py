@@ -10,7 +10,7 @@ def generate_question():
     return question, answer
 
 
-def generate_prime_number(random_num):
+def is_generate_prime_number(random_num):
     prime_num_array = [2, 3, 5, 7, 11, 13, 17, 19, 23,
                        29, 31, 37, 41, 43, 47, 53, 61,
                        71, 73, 79, 83, 89, 97, 101, 103, 107, ]
@@ -18,7 +18,8 @@ def generate_prime_number(random_num):
 
 
 def checkout_answer(random_num):
-    if generate_prime_number(random_num) is True:
+    result = is_generate_prime_number(random_num)
+    if result is True:
         return 'yes'
-    elif generate_prime_number(random_num) is False:
+    else:
         return 'no'
